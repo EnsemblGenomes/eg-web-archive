@@ -15,6 +15,9 @@ sub update_conf {
     $SiteDefs::ENSEMBL_VEP_ENABLED    = 0;
     $SiteDefs::ENSEMBL_MART_ENABLED   = 0;
     $SiteDefs::ENSEMBL_AC_ENABLED     = 0;
+
+    $SiteDefs::ENSEMBL_LOGDIR  = '/nfs/public/rw/ensembl/shared-storage/ensembl-logs/archive-plants';
+    $SiteDefs::ENSEMBL_TMP_DIR = '/nfs/public/rw/ensembl/shared-storage/ensembl-tmp-dirs/archive-plants';
 }
 
 1;

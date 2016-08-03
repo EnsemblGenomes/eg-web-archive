@@ -7,7 +7,6 @@ sub update_conf {
     $SiteDefs::ENSEMBL_PORT       = 8111;
     $SiteDefs::ENSEMBL_SERVERNAME = 'archive.plants.ensembl.org';
     $SiteDefs::SITE_NAME          = 'Ensembl Plants Archive';
-    $SiteDefs::ENSEMBL_SITETYPE          = 'Ensembl Plants Archive';
     $SiteDefs::ENSEMBL_BASE_URL   = 'http://archive.plants.ensembl.org';
     $SiteDefs::SITE_FTP           = 'ftp://ftp.ensemblgenomes.org/pub/release-31/plants/';
 

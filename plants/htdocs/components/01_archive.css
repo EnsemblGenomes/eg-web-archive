@@ -1,0 +1,4 @@
+/* hide biomart box on FTP download page */
+#biomart-box {
+  display: none;
+}

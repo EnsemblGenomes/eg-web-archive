@@ -8,7 +8,7 @@ sub update_conf {
     $SiteDefs::ENSEMBL_SERVERNAME = 'archive.plants.ensembl.org';
     $SiteDefs::SITE_NAME          = 'Ensembl Plants Archive';
     $SiteDefs::ENSEMBL_BASE_URL   = 'http://archive.plants.ensembl.org';
-    $SiteDefs::SITE_FTP           = 'ftp://ftp.ensemblgenomes.org/pub/release-31/plants/';
+    $SiteDefs::SITE_FTP           = 'ftp://ftp.ensemblgenomes.org/pub/release-35/plants/';
 
     # Flag to enable/disable BLAST, VEP, Assembly Converter
     $SiteDefs::ENSEMBL_BLAST_ENABLED  = 0;

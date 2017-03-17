@@ -21,6 +21,10 @@ package EnsEMBL::Web::Configuration::Location;
 use strict;
 
 
+use previous qw(
+  modify_tree 
+);
+
 ## Enable polyploid view for Archive plants - ENSEMBL-4881 
  sub modify_tree {
    my $self  = shift;

@@ -9,15 +9,10 @@ sub update_conf {
     $SiteDefs::SITE_NAME          = 'Ensembl Plants Archive';
     $SiteDefs::ENSEMBL_BASE_URL   = 'http://archive.plants.ensembl.org';
     $SiteDefs::SITE_FTP           = 'ftp://ftp.ensemblgenomes.org/pub/release-35/plants/';
+    
+#   Need this as EG_DIVISION in ENSEMBL_LOGDIR and ENSEMBL_TMP_DIR referes to 'plants'. But we need 'archive-plants'.
+    $SiteDefs::LOGS_DIR            = 'archive-plants';
 
-    # Flag to enable/disable BLAST, VEP, Assembly Converter
-    $SiteDefs::ENSEMBL_BLAST_ENABLED  = 0;
-    $SiteDefs::ENSEMBL_VEP_ENABLED    = 0;
-    $SiteDefs::ENSEMBL_MART_ENABLED   = 0;
-    $SiteDefs::ENSEMBL_AC_ENABLED     = 0;
-
-    $SiteDefs::ENSEMBL_LOGDIR  = '/nfs/public/rw/ensembl/shared-storage/ensembl-logs/archive-plants';
-    $SiteDefs::ENSEMBL_TMP_DIR = '/nfs/public/rw/ensembl/shared-storage/ensembl-tmp-dirs/archive-plants';
 }
 
 1;
